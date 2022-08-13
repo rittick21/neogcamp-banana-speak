@@ -1,9 +1,29 @@
+:root{
+    --bananaCol:yellow;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.head{
+    background-color:var(--bananaCol);
+    display: flex;
+    height: 4rem;
+    margin-bottom: 1rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    border-bottom-left-radius: 2rem;
+}
+.head .heading{
+    font-weight: 400;
+}
 #text-ip{
     height: 8vh;
     width: 80%;
     display: block;
     margin: auto;
-    padding: 2rem;
+    padding: 5rem 2rem;
     text-align: center;
     font-weight: bolder;
     font-size: larger;
@@ -13,12 +33,25 @@
     text-align: center;
     margin: auto;
     font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
 }
 #translate-btn{
+    border-radius: 2rem;
+    background-color: var(--bananaCol);
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
     margin: auto;
     margin-top: 1rem;
+    width: 10rem;
+    height: 2rem;
+}#translate-btn:hover{
+    transition: 0.3s linear;
+    width: 11rem;
+    box-shadow: 10px 0px 10px gray;
 }
 #output{
     border: 1px solid black;
@@ -29,6 +62,31 @@
     justify-content: center;
     margin: auto;
     margin-top: 1rem;
-    padding: 1rem 1rem;
+    padding: 3rem 3rem;
     font-size: larger;
+    font-style: italic;
 }
+.image-minions{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 1rem;
+}
+.appFooter{
+    padding: 1rem;
+    background-color: var(--bananaCol);
+    text-align: center;
+    border-top-right-radius: 2rem;
+}
+.appFooter .footerHeading{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.appFooter .footer-content{
+    font-size: large;
+    font-weight: 400;
+}
+
