@@ -19,7 +19,7 @@
     font-weight: 400;
 }
 #text-ip{
-    height: 8vh;
+    height: 35vh;
     width: 80%;
     display: block;
     margin: auto;
@@ -28,6 +28,11 @@
     font-weight: bolder;
     font-size: larger;
     border-radius: 2rem;
+    max-width: 350px;
+    overflow: auto;
+}
+#text-ip::-webkit-scrollbar{
+    width: 10px;
 }
 #oh{
     text-align: center;
@@ -65,6 +70,7 @@
     padding: 3rem 3rem;
     font-size: larger;
     font-style: italic;
+    max-width: 350px;
 }
 .image-minions{
     margin: auto;
